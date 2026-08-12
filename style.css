@@ -6,16 +6,14 @@
     <title>Ídolos do Corinthians</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; color: #222; }
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #222; }
         header { background-color: #000; color: #fff; padding: 25px; text-align: center; border-bottom: 4px solid #c00; }
         nav { background-color: #111; display: flex; justify-content: center; flex-wrap: wrap; }
-        nav a { color: #fff; padding: 15px 25px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        nav a { color: #fff; padding: 15px 25px; text-decoration: none; font-weight: bold; }
         nav a:hover, nav a.active { background-color: #c00; }
-        .container { max-width: 900px; margin: 30px auto; padding: 25px; background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .container { max-width: 900px; margin: 30px auto; padding: 25px; background: #fff; border-radius: 8px; }
         h2 { color: #000; margin-bottom: 15px; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
-        .idolo { margin-bottom: 20px; }
-        .idolo h3 { color: #c00; }
-        p { line-height: 1.6; }
+        .idolo h3 { color: #c00; margin-top: 10px; }
         footer { text-align: center; padding: 20px; background-color: #000; color: #fff; margin-top: 40px; }
     </style>
 </head>
@@ -23,7 +21,7 @@
 
     <header>
         <h1>Sport Club Corinthians Paulista</h1>
-        <p>Grandes Nomes da Nossa História</p>
+        <p>Grandes Nomes da História</p>
     </header>
 
     <nav>
@@ -34,36 +32,21 @@
     </nav>
 
     <div class="container">
-        <h2>Grandes Ídolos Alvinegros</h2>
-
+        <h2>Grandes Ídolos</h2>
         <div class="idolo">
             <h3>Neco</h3>
-            <p>O primeiro grande ídolo da torcida corinthiana. Jogou no clube por 17 anos (1913-1930) e conquistou oito títulos paulistas.</p>
-        </div>
-
-        <div class="idolo">
-            <h3>Cláudio Christóvam de Pinho</h3>
-            <p>Maior artilheiro da história do clube com 305 gols marcados com a camisa alvinegra.</p>
-        </div>
-
-        <div class="idolo">
+            <p>Primeiro grande ídolo corinthiano, jogou de 1913 a 1930.</p>
             <h3>Sócrates</h3>
-            <p>Um dos maiores meio-campistas do futebol mundial, símbolo da Democracia Corinthiana dentro e fora de campo.</p>
-        </div>
-
-        <div class="idolo">
+            <p>Líder da Democracia Corinthiana e gênio do futebol mundial.</p>
             <h3>Marcelinho Carioca</h3>
-            <p>Conhecido como o "Pé de Anjo", é o jogador com mais títulos conquistados pelo Corinthians (10 títulos no total).</p>
-        </div>
-
-        <div class="idolo">
+            <p>O Pé de Anjo, especialista em cobranças de falta e multicampeão.</p>
             <h3>Cássio</h3>
-            <p>Goleiro lendário, herói das conquistas da Libertadores e do Mundial de Clubes de 2012.</p>
+            <p>Goleiro e herói do Mundial de Clubes de 2012.</p>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 Portal de História do Corinthians | Desenvolvido no GitHub Pages</p>
+        <p>&copy; 2026 Portal Corinthians | Criado no GitHub Pages</p>
     </footer>
 
 </body>
